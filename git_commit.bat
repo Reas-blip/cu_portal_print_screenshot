@@ -11,9 +11,9 @@ git add .
 REM Commit with a timestamp message
 set commit_message=Auto commit on %DATE% %TIME%
 git commit -m "%commit_message%"
-
-REM Push to the remote repository (default branch: main)
 git push origin main
+REM Push to the remote repository (default branch: main)
+
 
 REM Print success message
 echo.
