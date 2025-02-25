@@ -1,6 +1,6 @@
 @echo off
-REM Set the repository directory (change this to your repo's path if needed)
-set REPO_DIR=%cd%
+REM Get the directory where this script is located
+set REPO_DIR=%~dp0
 
 REM Navigate to the repository
 cd /d "%REPO_DIR%"
